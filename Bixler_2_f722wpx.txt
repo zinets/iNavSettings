@@ -1,0 +1,114 @@
+pe 'exit' to return, or 'help'
+
+# diff
+
+# version
+# INAV/MATEKF722WPX 3.0.1 Jul  4 2021 / 14:29:46 (753c4479)
+# GCC-9.3.1 20200408 (release)
+
+# start the command batch
+batch start
+
+# resources
+
+# mixer
+
+# servo mix
+
+# servo
+
+# safehome
+
+# logic
+
+# gvar
+
+# pid
+
+# feature
+feature MOTOR_STOP
+
+# beeper
+
+# map
+
+# serial
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+
+# adjrange
+
+# rxrange
+
+# temp_sensor
+
+# wp
+#wp 0 invalid
+
+# osd_layout
+
+# master
+set gyro_main_lpf_hz = 25
+set dynamic_gyro_notch_enabled = ON
+set dynamic_gyro_notch_q = 250
+set dynamic_gyro_notch_min_hz = 30
+set acc_hardware = MPU6000
+set acczero_x = 58
+set acczero_y = -53
+set acczero_z = -178
+set accgain_x = 4064
+set accgain_y = 4100
+set accgain_z = 4049
+set align_mag = CW270FLIP
+set mag_hardware = NONE
+set baro_hardware = DPS310
+set motor_pwm_protocol = STANDARD
+set throttle_idle =  5.000
+set platform_type = AIRPLANE
+set small_angle = 180
+set imu_acc_ignore_rate = 10
+set applied_defaults = 3
+set airmode_type = STICK_CENTER_ONCE
+set nav_wp_radius = 1500
+set nav_rth_allow_landing = FS_ONLY
+set nav_rth_altitude = 5000
+set nav_fw_control_smoothness = 2
+
+# profile
+profile 1
+
+set fw_p_pitch = 15
+set fw_i_pitch = 10
+set fw_ff_pitch = 60
+set fw_p_roll = 10
+set fw_i_roll = 8
+set fw_ff_roll = 40
+set fw_p_yaw = 20
+set fw_i_yaw = 5
+set fw_ff_yaw = 100
+set max_angle_inclination_rll = 350
+set fw_turn_assist_pitch_gain =  0.500
+set nav_fw_pos_z_p = 20
+set nav_fw_pos_z_d = 5
+set nav_fw_pos_xy_p = 50
+set d_boost_factor =  1.000
+set rc_expo = 30
+set rc_yaw_expo = 30
+set roll_rate = 18
+set pitch_rate = 9
+set yaw_rate = 3
+
+# battery_profile
+battery_profile 1
+
+
+# end the command batch
+batch end
+
+# 
